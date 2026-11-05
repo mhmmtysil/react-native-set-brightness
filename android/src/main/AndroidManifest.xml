@@ -1,0 +1,3 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Intentionally empty: no WRITE_SETTINGS. Window brightness only. -->
+</manifest>

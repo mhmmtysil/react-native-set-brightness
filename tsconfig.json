@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "ESNext",
+    "lib": ["ES2019"],
+    "declaration": true,
+    "declarationMap": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "jsx": "react-native",
+    "outDir": "lib/typescript",
+    "rootDir": "src",
+    "noEmit": true
+  },
+  "include": ["src"]
+}

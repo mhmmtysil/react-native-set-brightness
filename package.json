@@ -1,0 +1,55 @@
+{
+  "name": "react-native-set-brightness",
+  "version": "0.1.0",
+  "description": "App-window screen brightness for React Native. No WRITE_SETTINGS. Android window brightness + iOS UIScreen.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "react-native": "src/index.ts",
+  "source": "src/index.ts",
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "react-native-set-brightness.podspec",
+    "react-native.config.js",
+    "README.md",
+    "LICENSE",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__"
+  ],
+  "scripts": {
+    "typescript": "tsc --noEmit"
+  },
+  "keywords": [
+    "react-native",
+    "brightness",
+    "screen-brightness",
+    "set-brightness",
+    "ios",
+    "android"
+  ],
+  "author": "Muhammet Yeşil",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": ">=0.73.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "react": "18.3.1",
+    "react-native": "0.83.1",
+    "typescript": "^5.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhmmtysil/react-native-set-brightness.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhmmtysil/react-native-set-brightness/issues"
+  },
+  "homepage": "https://www.npmjs.com/package/react-native-set-brightness",
+  "publishConfig": {
+    "access": "public"
+  }
+}
